@@ -1,16 +1,17 @@
 # Chiourim BA — données
 
-Textes déjà publiés sur [Guemara](https://guemara.vercel.app) et [Hassidout](https://hassidout.vercel.app),
-pour le lecteur de l'application iPhone. Dossier lu sur
+Textes déjà publiés sur [Guemara](https://guemara.vercel.app), [Hassidout](https://hassidout.vercel.app)
+et [Halakha](https://halakha.vercel.app), pour le lecteur de l'application iPhone. Dossier lu sur
 `https://raw.githubusercontent.com/bben2/chiourimsba-donnees/main/`.
 
 ## Contenu
 
-- `catalogue.json` — trois collections : Guemara, Hassidout et moussar, Halakha (vide pour l'instant).
+- `catalogue.json` — trois collections : Guemara, Hassidout et moussar, Halakha.
 - `guemara/<Traité>/<amud>.json` — feuillet bilingue : texte, Rachi, Tossefot, Roch, Ben Yehoyada, explication, schémas.
 - `hassidout/<livre>/<section>.json` — section bilingue (hébreu et français).
+- `halakha/<ouvrage>/<section>.json` — section bilingue, avec le résumé « En bref ».
 
-Seules les pages déjà en ligne sont exportées. Pas de Kabbale.
+Seules les pages déjà en ligne sont exportées. Pas de Kabbale. Sommaires et guides sans paire hébreu / français exclus.
 
 ## Format
 

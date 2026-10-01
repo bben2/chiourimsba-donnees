@@ -9,7 +9,9 @@ et [Halakha](https://halakha.vercel.app), pour le lecteur de l'application iPhon
 - `catalogue.json` — trois collections : Guemara, Hassidout et moussar, Halakha.
 - `guemara/<Traité>/<amud>.json` — feuillet bilingue : texte, Rachi, Tossefot, Roch, Ben Yehoyada, explication, schémas.
 - `hassidout/<livre>/<section>.json` — section bilingue (hébreu et français).
-- `halakha/<ouvrage>/<section>.json` — section bilingue, avec le résumé « En bref ».
+- `halakha/<ouvrage>/<section>.json` — section bilingue, avec le résumé « En bref », la synthèse pratique
+  (`pratique` : `avertissement`, `encadres` [`type` sujet / faire / eviter / oui / non / rema / cas, `titre`, `texte`],
+  `synthese`) et le glossaire (`glossaire` : `terme`, `definition`).
 
 Seules les pages déjà en ligne sont exportées. Pas de Kabbale. Sommaires et guides sans paire hébreu / français exclus.
 
